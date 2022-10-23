@@ -1,16 +1,16 @@
-interface IObservable {
+export interface IObservable {
   subscribe<T>(next: NextFn<T>): ISubscription;
 }
 
-type NextFn<T> = (value: T) => void;
+export type NextFn<T> = (value: T) => void;
 
-interface ISubscription {
+export interface ISubscription {
   unsubscribe: UnsubscribeFn;
 }
 
-type UnsubscribeFn = () => void;
+export type UnsubscribeFn = () => void;
 
-class Subscription implements ISubscription {
+export class Subscription implements ISubscription {
   constructor(private _unsubscribe: UnsubscribeFn) {}
 
   unsubscribe(): void {
@@ -18,7 +18,7 @@ class Subscription implements ISubscription {
   }
 }
 
-class Observable implements IObservable {
+export class Observable implements IObservable {
   private _subscriptions: Map<string, ISubscription> = new Map();
   private _subscriptionsHandlers: Map<string, NextFn<any>> = new Map();
 
