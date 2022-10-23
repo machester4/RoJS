@@ -1,7 +1,7 @@
 {
-  "name": "rojs",
-  "version": "1.0.0",
-  "description": "Reactive Objects For JavaScript",
+  "name": "rxjs-nano",
+  "version": "1.0.2",
+  "description": "Lightweight reactive extensions for modern JavaScript",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "umd:main": "dist/umd/index.js",
@@ -19,7 +19,7 @@
     "package": "npm run build && npm pack",
     "test": "jest --no-cache --runInBand",
     "test:cov": "jest --coverage --no-cache --runInBand",
-    "addscope": "node tools/packagejson name @machester4/rojs"
+    "addscope": "node tools/packagejson name @machester4/rxjs-nano"
   },
   "publishConfig": {
     "access": "public"
@@ -27,8 +27,8 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/machester4/RoJS",
-  "homepage": "https://github.com/machester4/RoJS",
+  "repository": "https://github.com/machester4/rxjs-nano",
+  "homepage": "https://github.com/machester4/rxjs-nano",
   "author": "Michael Pintos",
   "license": "MIT",
   "private": false,
