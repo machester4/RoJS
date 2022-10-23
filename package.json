@@ -1,6 +1,6 @@
 {
   "name": "rxjs-lite",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Lightweight reactive extensions for modern JavaScript",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
