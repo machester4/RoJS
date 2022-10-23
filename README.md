@@ -5,7 +5,7 @@
 ### sample code
 
 ```typescript
-import { Observable } from '@machester4/rxjs-lite'
+import { Observable } from 'rxjs-lite'
 
 class ChatModelObservable extends Observable {
   private messages: string[] = []
