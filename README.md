@@ -1,6 +1,6 @@
 # Lightweight reactive extensions for modern JavaScript (rxjs-lite)
 
-[![npm package](https://img.shields.io/badge/npm%20i-rxjs--nano-brightgreen)](https://www.npmjs.com/package/rxjs-lite) [![version number](https://img.shields.io/npm/v/rxjs-lite?color=green&label=version)](https://github.com/machester4/rxja-nano/releases) [![Actions Status](https://github.com/machester4/rxjs-lite/workflows/Test/badge.svg)](https://github.com/machester4/rxjs-lite/actions) [![License](https://img.shields.io/github/license/machester4/rxjs-lite)](https://github.com/machester4/rxjs-lite/blob/main/LICENSE)
+[![npm package](https://img.shields.io/badge/npm%20-rxjs--lite-brightgreen)](https://www.npmjs.com/package/rxjs-lite) [![version number](https://img.shields.io/npm/v/rxjs-lite?color=green&label=version)](https://github.com/machester4/rxja-nano/releases) [![Actions Status](https://github.com/machester4/rxjs-lite/workflows/Test/badge.svg)](https://github.com/machester4/rxjs-lite/actions) [![License](https://img.shields.io/github/license/machester4/rxjs-lite)](https://github.com/machester4/rxjs-lite/blob/main/LICENSE)
 
 ### sample code
 
