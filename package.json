@@ -1,6 +1,6 @@
 {
   "name": "rxjs-lite",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lightweight reactive extensions for modern JavaScript",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -33,17 +33,17 @@
   "license": "MIT",
   "private": false,
   "keywords": [
-    "example",
-    "typescript",
-    "npm",
-    "package",
-    "sample",
-    "boilerplate",
-    "starter",
-    "demo",
-    "cjs",
-    "esm",
-    "umd"
+    "Rx",
+    "RxJS",
+    "RxJS-Lite",
+    "ReactiveX",
+    "ReactiveExtensions",
+    "Observables",
+    "Observable",
+    "Observer",
+    "Subscription",
+    "ES6",
+    "ES2015"
   ],
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
