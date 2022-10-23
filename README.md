@@ -1,11 +1,11 @@
-# Lightweight reactive extensions for modern JavaScript (rxjs-nano)
+# Lightweight reactive extensions for modern JavaScript (rxjs-lite)
 
-[![npm package](https://img.shields.io/badge/npm%20i-rxjs--nano-brightgreen)](https://www.npmjs.com/package/@reactive/rxjs-nano) [![version number](https://img.shields.io/npm/v/@reactive/rxjs-nano?color=green&label=version)](https://github.com/machester4/rxja-nano/releases) [![Actions Status](https://github.com/machester4/rxjs-nano/workflows/Test/badge.svg)](https://github.com/machester4/rxjs-nano/actions) [![License](https://img.shields.io/github/license/machester4/rxjs-nano)](https://github.com/machester4/rxjs-nano/blob/main/LICENSE)
+[![npm package](https://img.shields.io/badge/npm%20i-rxjs--nano-brightgreen)](https://www.npmjs.com/package/@reactive/rxjs-lite) [![version number](https://img.shields.io/npm/v/@reactive/rxjs-lite?color=green&label=version)](https://github.com/machester4/rxja-nano/releases) [![Actions Status](https://github.com/machester4/rxjs-lite/workflows/Test/badge.svg)](https://github.com/machester4/rxjs-lite/actions) [![License](https://img.shields.io/github/license/machester4/rxjs-lite)](https://github.com/machester4/rxjs-lite/blob/main/LICENSE)
 
 ### sample code
 
 ```typescript
-import { Observable } from '@machester4/rxjs-nano'
+import { Observable } from '@machester4/rxjs-lite'
 
 class ChatModelObservable extends Observable {
   private messages: string[] = []
